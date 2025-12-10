@@ -1,3 +1,4 @@
+// Revision 2: Pipes module updated
 #include "ipc_pipes.h"
 #include "security.h"
 #include "logger.h"
@@ -39,3 +40,4 @@ void pipeReceive() {
     CloseHandle(hWrite);
     CloseHandle(hRead);
 }
+
