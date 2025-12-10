@@ -1,3 +1,4 @@
+// Revision 6: Demo controller module updated
 #include <iostream>
 #include "security.h"
 #include "ipc_pipes.h"
@@ -35,3 +36,4 @@ int main() {
         }
     }
 }
+
