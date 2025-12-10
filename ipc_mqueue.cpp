@@ -1,3 +1,4 @@
+// Revision 3: Message queue module updated
 #include "ipc_mqueue.h"
 #include "security.h"
 #include "logger.h"
@@ -102,4 +103,5 @@ void mqReceive() {
 
     CloseHandle(pipe);
 }
+
 
