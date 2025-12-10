@@ -1,3 +1,4 @@
+// Revision 5: Security module updated
 #include "security.h"
 #include <iostream>
 
@@ -18,3 +19,4 @@ std::string encryptData(const std::string &msg, char key) {
 std::string decryptData(const std::string &msg, char key) {
     return encryptData(msg, key);
 }
+
